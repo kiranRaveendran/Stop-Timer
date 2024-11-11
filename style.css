@@ -1,0 +1,59 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(moundBG.jpg);
+    background-size: cover;
+}
+.watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    min-width: 6em;
+    min-height: 2em;
+    font-size: 3em;
+    /* border: 1px solid white; */
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    padding: 0 1em;
+}
+button{
+    font-family: 'Roboto', sans-serif;
+    background:rgb(132, 158, 151);
+    font-size: 2em;
+    padding: 15px;
+    border: 1px solid rgb(61, 134, 154);
+    border-radius: 14px;
+    width:4em;
+    cursor: pointer;
+    color: white;
+    box-shadow: rgba(74, 74, 74, 0.1) 0px 4px 12px;
+}
+.buttons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+button:hover{
+    background:rgb(40, 47, 46);
+    transition-duration: 1s;
+}
+.buttonClicked{
+    background-color: rgb(134, 72, 72);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+p{
+    padding: 2px;
+    margin: 0;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
