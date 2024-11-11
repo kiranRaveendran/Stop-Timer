@@ -19,7 +19,6 @@ body{
     min-width: 6em;
     min-height: 2em;
     font-size: 3em;
-    /* border: 1px solid white; */
     border-radius: 4px;
     background-color: rgb(255, 255, 255);
     padding: 0 1em;
@@ -29,7 +28,7 @@ button{
     background:rgb(132, 158, 151);
     font-size: 2em;
     padding: 15px;
-    border: 1px solid rgb(61, 134, 154);
+    border: 1px solid rgb(57, 123, 141);
     border-radius: 14px;
     width:4em;
     cursor: pointer;
